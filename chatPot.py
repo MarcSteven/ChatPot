@@ -1,7 +1,7 @@
 GREETING_KEYWORDS = ("hello","hi","greeeings","sup","what's up",)
 GREETING_RESPONSES = ["'sup bro","hey","*nods*","hey you get my snap?"']
 
-def check_for_gretting(sentence):
+def check_for_greetting(sentence):
 	""" if any of the words in the user' input was a greeting,return a greeeting response"""
 	for word in sentence.word:
 		if word.lower() in GREETING_KEYWORDS:
